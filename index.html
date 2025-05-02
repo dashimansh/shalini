@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>For My Love</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #ffccd5, #ffe6f0);
+      color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .card {
+      background-color: #fff0f5;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      max-width: 500px;
+      margin: 20px;
+      animation: fadeIn 2s ease;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    h1 {
+      color: #d63384;
+      font-size: 36px;
+    }
+
+    .message {
+      font-size: 18px;
+      margin-top: 15px;
+      color: #555;
+    }
+
+    .heart {
+      font-size: 40px;
+      color: red;
+      animation: pulse 1s infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+    }
+
+    img {
+      width: 200px;
+      border-radius: 50%;
+      margin-top: 20px;
+      border: 5px solid #ffcce6;
+    }
+
+    footer {
+      margin-top: 30px;
+      font-size: 14px;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Hi, My Love!</h1>
+    <div class="heart">♥</div>
+    <p class="message">
+      This little website is just for you.<br>
+      You're the most amazing person in my life.<br>
+      I love you more every single day.
+    </p>
+    <img src="image1.jpeg" alt="Us Together">
+  </div>
+  <footer>Made with love just for you.</footer>
+</body>
+</html>
